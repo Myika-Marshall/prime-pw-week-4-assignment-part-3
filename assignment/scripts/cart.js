@@ -28,5 +28,10 @@ listItems()
 
 function empty(){
   console.log('in empty');
-  
+  basket.length = 0;
 }
+
+
+empty ()
+
+console.log('What is in my array now?', basket);
