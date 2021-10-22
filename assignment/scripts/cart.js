@@ -7,7 +7,7 @@ function addItem(item){
   console.log('in addItem');
   basket.push(item)
   if (basket.length >= [0]){
-    return true;}
+  return true;}
 }
 
 addItem('Kleenex');
@@ -15,12 +15,18 @@ addItem('String Cheese');
 addItem('Bentgo Boxes');
 
 console.log('I have these items in my basket:', basket);
-console.log(addItem());
 
 function listItems(){
   console.log('in listItems');
-  for (let i = basket [0]; i < basket.length; i++);
-  console.log("for loop", listItems());
+  for (let i = 0; i< basket.length; i++){
+    console.log('in the loop', basket[i]);
+  }
 }
 
-listItems ();
+console.log('Looping my basket items:');
+listItems()
+
+function empty(){
+  console.log('in empty');
+  
+}
